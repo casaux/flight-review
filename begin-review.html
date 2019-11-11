@@ -58,74 +58,55 @@
                      <li>Breadcrumb</li>
                   </ul>
                </nav>
-			 <div class="casa-section">
                <header class="au-header" role="banner">
                   <h1 class="break desktop au-header-heading">Flight review notification</h1>
                   <a class="au-direction-link" href="javascript:history.back()">
 					<span class="au-direction-link__arrow au-direction-link__arrow--left" aria-hidden="true"></span>Back
 					</a>
                </header>
-			 </div>
+			   
+				<div class="au-callout">
+                  <div class="row">
+                     <div class="col-xs-12 col-lg-9">
+												 <h4>Please note</h4>
+                        <p>It is a pre-requisite of this service that licence holders must hold the following before a flight review can be submitted:
+							<ul>
+								<li>A current Aviation English Language Proficiency</li>
+								<li>A current <abbr title="Aviation Security Identification Card">ASIC</abbr> or <abbr title="Aviation Identification">AVID</abbr></li>
+								<li>A current Medical</li>
+							</ul>
+						</p>
+						 <br />
+                      	<a class="au-btn" href="licence-holder-details.html">Begin</a>
+
+						 
+						 
+                     </div>
+                  </div>
+               </div>
+
+<br>
+
+
+<br/>
+
+
+<br><br>
 			 
-<div class="row">
-               	<div class="col-xs-12 col-md-12 col-lg-6">
-<div class="casa-section">					
-<h2>Review type</h2>
-</div>
-
-					  
-		<div class="casa-section">
-			<p class="casa-form-guidance">Please select the type/s of flight review conducted</p>	
-            <div class="au-control-input au-control-input--block">
-             <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-aircraft" value="aircraft">
-           		<label class="au-control-input__text" for="apply-aircraft">Aircraft category class/type rating</label>
-            </div>
-          	<div class="au-control-input au-control-input--block">
-              <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-operation" value="operational">
-                <label class="au-control-input__text" for="apply-operation">Operational rating</label>
-            </div>
-        </div>
-
-
-         <div class="casa-section operational-rating casa-hidden">
-          <label for="" class="casa-form-guidance">Operational rating</label>
-            <div class="au-control-input au-control-input--block">
-  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-nvfr">
-  <label class="au-control-input__text" for="cb-nvfr">Night VFR Rating</label>
-</div>
-<div class="au-control-input au-control-input--block">
-  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-pir">
-  <label class="au-control-input__text" for="cb-pir">Private IR Rating</label>
-</div>
-<div class="au-control-input au-control-input--block">
-  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-ll">
-  <label class="au-control-input__text" for="cb-ll">Low Level Rating</label>
-</div>
-         </div>
-
-				   
-				<div class="form-navigation">
-
-				<a class="au-btn" href="application-summary.html">Next</a>
-					
-
-
-
+			 				
 
 					
 
 				</div>
-				               <hr />
-            <a href="arn-saved.html" class="au-btn au-btn--secondary">
-            Save and exit application
-            </a>  
+				   
 				   
             </div>
-			 </div>
-			 </div>
-		  </div>
-
-
+   
+				   
+				   
+				   
+            </div>
+         </div>
           <div class="footer">
            
             <div class="footer-wrapper">
@@ -133,21 +114,5 @@
             </div>
          </div>
       </main>
-		  		  <script>
-			   $("input[name=apply-for]").on("change", function () {
-        var isOperationalChecked = false;
-        $("input[name=apply-for]:checked").each(function() {
-            if ($(this).val() === "operational") {
-                isOperationalChecked = true;
-            }
-        });
-
-        if (isOperationalChecked) {
-            $(".operational-rating").removeClass("casa-hidden");
-        } else {
-            $(".operational-rating").addClass("casa-hidden");
-        }
-    });
-		  </script>	
    </body>
 </html>
