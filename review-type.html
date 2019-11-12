@@ -69,49 +69,74 @@
 			 
 <div class="row">
                	<div class="col-xs-12 col-md-12 col-lg-6">
-					<div class="casa-section">					
-<h4>Aircraft details</h4>
-<strong>VH-Mark:</strong> VH-ABC<br>
+					
+					<section class="au-callout">					
+					<h4>Aircraft details</h4>
+<p><strong>VH-Mark:</strong> VH-ABC<br>
 <strong>Make/Model:</strong> Piper PA-28 Cherokee<br>
-<strong>Class Rating:</strong> Single-Engine Aeroplane<br>
-</div>
+<strong>Class Rating:</strong> Single-Engine Aeroplane</p>
+					</section>
+					
+
 					
 <div class="casa-section">					
 <h2>Review type</h2>
 </div>
 
-					  
-		<div class="casa-section">
-			<p class="casa-form-guidance">Please select the type/s of flight review conducted</p>	
-            <div class="au-control-input au-control-input--block">
-             <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-aircraft" value="aircraft">
+	                    <div class="au-form-group">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">Please select the type/s of flight review conducted</h3>
+                            <span class="au-hint-text">You may select more than one</span>
+                        </legend>
+
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-aircraft" value="aircraft">
            		<label class="au-control-input__text" for="apply-aircraft">Aircraft category class/type rating</label>
-            </div>
-          	<div class="au-control-input au-control-input--block">
-              <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-operation" value="operational">
+                        </div>
+                        
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-operation" value="operational">
                 <label class="au-control-input__text" for="apply-operation">Operational rating</label>
-            </div>
-        </div>
+                        </div>
 
+           
+                        
+                    </fieldset>
+                    </div> 
+				
+						                    <div class="au-form-group operational-rating casa-hidden">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">Operational rating/s</h3>
+                            <span class="au-hint-text">You may select more than one</span>
+                        </legend>
 
-         <div class="casa-section operational-rating casa-hidden">
-          <label for="" class="casa-form-guidance">Operational rating</label>
-            <div class="au-control-input au-control-input--block">
-  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-nvfr">
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-nvfr">
   <label class="au-control-input__text" for="cb-nvfr">Night VFR Rating</label>
-</div>
-<div class="au-control-input au-control-input--block">
-  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-pir">
+                        </div>
+                        
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-pir">
   <label class="au-control-input__text" for="cb-pir">Private IR Rating</label>
-</div>
+                        </div>
 <div class="au-control-input au-control-input--block">
-  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-ll">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-ll">
   <label class="au-control-input__text" for="cb-ll">Low Level Rating</label>
-</div>
-         </div>
+                        </div>
+           
+                        
+                    </fieldset>
+                    </div> 
+					
+
+
+
+
 
 				   
-				<div class="form-navigation">
+				<div class="au-form-group">
 
 				<a class="au-btn" href="application-summary.html">Next</a>
 					
