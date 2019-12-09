@@ -95,17 +95,13 @@
            		<label class="au-control-input__text" for="apply-aircraft">Aircraft category class/type rating</label>
                         </div>
                         
-                        <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="apply-for" id="apply-operation" value="operational">
-                <label class="au-control-input__text" for="apply-operation">Operational rating</label>
-                        </div>
 
            
                         
                     </fieldset>
                     </div> 
 				
-						                    <div class="au-form-group operational-rating casa-hidden">     
+						                    <div class="au-form-group operational-rating">     
                     <fieldset class="au-fieldset">
                         <legend class="au-fieldset__legend">
                             <h3 class="au-display-sm">Operational rating/s</h3>
@@ -165,21 +161,6 @@
             </div>
          </div>
       </main>
-		  		  <script>
-			   $("input[name=apply-for]").on("change", function () {
-        var isOperationalChecked = false;
-        $("input[name=apply-for]:checked").each(function() {
-            if ($(this).val() === "operational") {
-                isOperationalChecked = true;
-            }
-        });
 
-        if (isOperationalChecked) {
-            $(".operational-rating").removeClass("casa-hidden");
-        } else {
-            $(".operational-rating").addClass("casa-hidden");
-        }
-    });
-		  </script>	
    </body>
 </html>
