@@ -1,0 +1,286 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>myCASA</title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="initial-scale=1">
+      <link rel="stylesheet" href="../mycasa-src-3.0/css/designsystem.min.css">
+      <link rel="stylesheet" href="../mycasa-src-3.0/css/casa.css">
+      <script type="text/javascript" src="../mycasa-src-3.0/js/designsystem.min.js"></script>
+      <script type="text/javascript" src="../mycasa-src-3.0/js/jquery.min.js"></script>
+      <script type="text/javascript" src="../mycasa-src-3.0/js/jquery.js"></script>
+	  <script type="text/javascript" src="va.js"></script> 
+      <script type="text/javascript">
+         /* page specific js */
+         
+         
+      </script>
+   </head>
+   <body class="live-demo au-body au-grid">
+      <main class="au-grid">
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="logo au-body au-body--dark">
+                     <a href="index.html"><img src="../mycasa-src/img/CASALOGO-white-i.svg"></a>
+                  </div>
+                  <div class="casa-menu">
+                  
+                  	<div id="dropdown-menu">
+						<div id="dd-menu"><a class="au-btn au-btn--dark menu" href="#"><img src="../mycasa-src/img/menu.png" height="20" />Menu</a></div>
+						<div id="dd-close"><a class="au-btn au-btn--dark menu" href="#"><img src="../mycasa-src/img/close.png" height="20" />Close</a><br />
+						<br />
+						<p id="mycasa-home"><a href="#">myCASA home</a></p>
+						<p><a href="#">Switch profile</a></p>
+						<p><a href="mycasa-signed-out.html">Sign out</a></p>
+						</div>
+                  
+                  
+                  </div>
+               </div></div>
+            </div>
+         </div>
+         <div class="body">
+			<div class="banner">
+				<div class=container>
+					<div class="row">
+					 <div class="col-md-12">
+				This service is currently in beta, we encourage you to <a href="feedback.html">provide feedback</a>
+				</div>
+				</div>
+			</div>
+		</div>
+         <div class="container">
+               <nav class="au-breadcrumbs" aria-label="breadcrumb">
+                  <ul class="au-link-list au-link-list--inline">
+                     <li><a href="index.html">myCASA</a></li>
+                     <li>Flight review notification</li>
+                  </ul>
+               </nav>
+			 <div class="casa-section">
+               <header class="au-header" role="banner">
+                  <h1 class="break desktop au-header-heading">Flight review notification</h1>
+                  <a class="au-direction-link" href="javascript:history.back()">
+					<span class="au-direction-link__arrow au-direction-link__arrow--left" aria-hidden="true"></span>Back
+					</a>
+               </header>
+			 </div>
+			 
+<div class="row">
+               	<div class="col-xs-12 col-md-12 col-lg-6">
+					
+					<section class="au-callout">					
+					<h4>Simulator details</h4>
+<p><strong>Simulator ID:</strong> 00010011100110</p>
+					</section>
+					
+
+					
+					
+<h2>Review type</h2>
+
+                    
+                    					<div class="au-form-group">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">What was the simulator category?</h3>
+                        </legend>
+
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="radio" name="assessed-simulator"
+                                       id="assessed-aeroplane" value="aeroplane">
+                                <label class="au-control-input__text" for="assessed-aeroplane">Aeroplane</label>
+                        </div>
+                        
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="radio" name="assessed-simulator"
+                                       id="assessed-helicopter" value="helicopter">
+                                <label class="au-control-input__text" for="assessed-helicopter">Helicopter</label>
+                        </div>
+
+
+                        
+                    </fieldset>
+                    </div>  
+                    
+
+	                    <div class="au-form-group aerosim casa-hidden">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">Please select the category of class or type used for the flight review conducted</h3>
+                        </legend>
+
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-class-type" id="cb-sec">
+           		<label class="au-control-input__text" for="cb-sec">Single engine class</label>
+                        </div>
+                        
+                                                <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-class-type" id="cb-mec">
+           		<label class="au-control-input__text" for="cb-mec">Multi engine class</label>
+                        </div>
+                        
+                                                <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-class-type" id="cb-tr" value="cb-tra">
+           		<label class="au-control-input__text" for="cb-tr">Type rating</label>
+                        </div>
+                        
+                                            <div class="au-form-group tra-dropdown casa-hidden">       
+                    <label for="select1block" class="au-label">What option?</label>
+                        <select id="select1block" class="au-select au-select--block">
+                          <option value="">Please select</option>
+                          <option value="1">Aeroplane 1</option>
+                          <option value="2">Aeroplane 2</option>
+                          <option value="3">Aeroplane 3</option>
+                        </select>    
+                    </div>
+                        
+
+           
+                        
+                    </fieldset>
+
+				
+						                    <div class="au-form-group operational-rating">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">Operational rating/s</h3>
+                            <span class="au-hint-text">You may select more than one</span>
+                        </legend>
+
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-nvfr">
+  <label class="au-control-input__text" for="cb-nvfr">Night VFR Rating</label>
+                        </div>
+                        
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-pir">
+  <label class="au-control-input__text" for="cb-pir">Private IR Rating</label>
+                        </div>
+<div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-ll">
+  <label class="au-control-input__text" for="cb-ll">Low Level Rating</label>
+                        </div>
+           
+                        
+                    </fieldset>
+                    </div> 
+                    </div>
+
+                    
+                    	                    <div class="au-form-group helisim casa-hidden">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">Please select the category of class or type used for the flight review conducted</h3>
+                        </legend>
+
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-class-type2" id="cb-sec2">
+           		<label class="au-control-input__text" for="cb-sec2">Single engine class</label>
+                        </div>
+                        
+                                                <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-class-type2" id="cb-tr2" value="cb-trh">
+           		<label class="au-control-input__text" for="cb-tr2">Type rating</label>
+                        </div>
+                        
+                                            <div class="au-form-group trh-dropdown casa-hidden">       
+                    <label for="select1block" class="au-label">Please select the aircraft type</label>
+                        <select id="select1block" class="au-select au-select--block">
+                          <option value="">Please select</option>
+                          <option value="1">Helicopter 1</option>
+                          <option value="2">Helicopter 2</option>
+                          <option value="3">Helicopter 3</option>
+                        </select>    
+                    </div>
+           
+                        
+                    </fieldset>
+
+				
+						                    <div class="au-form-group operational-rating">     
+                    <fieldset class="au-fieldset">
+                        <legend class="au-fieldset__legend">
+                            <h3 class="au-display-sm">Operational rating/s</h3>
+                            <span class="au-hint-text">You may select more than one</span>
+                        </legend>
+
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex2" id="cb-nvfr2">
+  <label class="au-control-input__text" for="cb-nvfr2">Night VFR Rating</label>
+                        </div>
+                        
+                        <div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex2" id="cb-pir2">
+  <label class="au-control-input__text" for="cb-pir2">Private IR Rating</label>
+                        </div>
+<div class="au-control-input au-control-input--block">
+                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex2" id="cb-ll2">
+  <label class="au-control-input__text" for="cb-ll2">Low Level Rating</label>
+                        </div>
+           
+                        
+                    </fieldset>
+                    </div> 
+                    </div>
+
+
+
+
+				   
+				<div class="au-form-group">
+
+				<a class="au-btn" href="application-summary.html">Next</a>
+					
+
+
+
+
+					
+
+				</div>
+				               <hr />
+            <a href="arn-saved.html" class="au-btn au-btn--secondary">
+            Save and exit application
+            </a>  
+				   
+            </div>
+			 </div>
+			 </div>
+		  </div>
+
+
+          <div class="footer">
+           
+            <div class="footer-wrapper">
+               <iframe src="../mycasa-src/footer.html" frameborder="0" border="0" scrolling="no"></iframe>
+            </div>
+         </div>
+      </main>
+		  <script>
+		  $("input[name=assessed-simulator]").on("change", function () {
+        if ($(this).val() === "aeroplane") {
+            $(".aerosim").removeClass("casa-hidden");
+            $(".helisim").addClass("casa-hidden");
+        } else if ($(this).val() === "helicopter") {
+            $(".aerosim").addClass("casa-hidden");
+            $(".helisim").removeClass("casa-hidden");
+        }
+    });
+              
+              		  $("input[name=checkbox-class-type]").on("click", function () {
+        if ($(this).val() === "cb-tra") {
+            $(".tra-dropdown").removeClass("casa-hidden");
+        }
+    });
+              
+                    $("input[name=checkbox-class-type2]").on("click", function () {
+        if ($(this).val() === "cb-trh") {
+            $(".trh-dropdown").removeClass("casa-hidden");
+        }
+    });
+
+		  </script>	
+   </body>
+</html>
