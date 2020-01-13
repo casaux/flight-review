@@ -85,13 +85,13 @@
 
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="radio" name="assessed-simulator"
-                                       id="assessed-aircraft" value="select-review">
+                                       id="assessed-aircraft" value="review-type-aircraft">
                                 <label class="au-control-input__text" for="assessed-aircraft">Aircraft</label>
                         </div>
                         
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="radio" name="assessed-simulator"
-                                       id="assessed-simulator" value="select-review">
+                                       id="assessed-simulator" value="review-type-simulator">
                                 <label class="au-control-input__text" for="assessed-simulator">Simulator</label>
                         </div>
 
@@ -132,7 +132,7 @@
 				<div class="au-form-group">
 
 								<div id="navigate" "navigate2">
-			    <a href="#" class="au-btn au-btn--primary">Next</a>          
+			    <a href="select-review.html" class="au-btn au-btn--primary">Next</a>          
             </div>
 					
 
@@ -170,11 +170,7 @@
             $(".simulator").removeClass("casa-hidden");
         }
     });
-			 $("#navigate a"). click(function(){
-				var radioValue = $("input[name='assessed-simulator']:checked"). val();
-				window.location.href=radioValue+".html";
-			 }); 
-			  
+
 
 
 
