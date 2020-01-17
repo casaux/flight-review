@@ -73,8 +73,7 @@
 					<section class="au-callout">					
 					<h4>Aircraft details</h4>
 <p><strong>VH-Mark:</strong> VH-ABC<br>
-<strong>Make/Model:</strong> Sikorsky S-76<br>
-<strong>Class Rating:</strong> N/A</p>
+<strong>Make/Model:</strong> Sikorsky S-76</p>
 					</section>
 					
 
@@ -88,22 +87,22 @@
                     <fieldset class="au-fieldset">
                         <legend class="au-fieldset__legend">
                             <h3 class="au-display-sm">Class ratings</h3>
-                            <span class="au-hint-text">You may select more than one</span>
+                            <span class="au-hint-text">Please select one</span>
                         </legend>
-                        <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="apply-for" id="sea">
-           		<label class="au-control-input__text" for="sea">Single-engine aeroplane</label>
-                        </div>
                         
                         <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="apply-for" id="mea">
-           		<label class="au-control-input__text" for="mea">Multi-engine aeroplane</label>
-                        </div>
-                        
-                        <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="apply-for" id="seh">
-           		<label class="au-control-input__text" for="seh">single-engine helicopter</label>
-                        </div>
+  <input class="au-control-input__input" type="radio" name="radio-ex" id="SEA">
+  <label class="au-control-input__text" for="SEA"><abbr title="single-engine aeroplane">SEA</abbr></label>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="radio" name="radio-ex" id="MEA">
+  <label class="au-control-input__text" for="MEA"><abbr title="multi-engine aeroplane">MEA</abbr></label>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="radio" name="radio-ex" id="SEH">
+  <label class="au-control-input__text" for="SEH"><abbr title="single-engine helicopter">SEH</abbr></label>
+</div>
+
                         
 
            
@@ -114,29 +113,27 @@
                     <fieldset class="au-fieldset">
                         <legend class="au-fieldset__legend">
                             <h3 class="au-display-sm">Type rating/s</h3>
-                            <span class="au-hint-text">You may select more than one</span>
+                            <span class="au-hint-text">Please select one</span>
                         </legend>
 
-                        <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex1" id="AS332/EC225">
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="radio" name="radio-ex1" id="AS332/EC225">
   <label class="au-control-input__text" for="AS332/EC225">AS332/EC225</label>
-                        </div>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="radio" name="radio-ex1" id="BH212/412">
+  <label class="au-control-input__text" for="BH212/412">BH212/412</label>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="radio" name="radio-ex1" id="SK76">
+  <label class="au-control-input__text" for="SK76">SK76</label>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="radio" name="radio-ex1" id="AS365/EC155">
+  <label class="au-control-input__text" for="AS365/EC155">AS365/EC155</label>
+</div>                        
                         
 
-<div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex1" id="BH212/412">
-  <label class="au-control-input__text" for="BH212/412">BH212/412</label>
-                        </div>
-                        
-           <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex1" id="SK76">
-  <label class="au-control-input__text" for="SK76">SK76</label>
-                        </div>
-                        
-                        <div class="au-control-input au-control-input--block">
-                            <input class="au-control-input__input" type="checkbox" name="checkbox-ex1" id="AS365/EC155">
-  <label class="au-control-input__text" for="AS365/EC155">AS365/EC155</label>
-                        </div>
                         
                     </fieldset>
                     </div> 
@@ -149,7 +146,7 @@
 
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="cb-nvfrmea">
-  <label class="au-control-input__text" for="cb-nvfrmea">Night VFR multi-enginge aeroplane</label>
+                            <label class="au-control-input__text" for="cb-nvfrmea">Night <abbr title="visual flight rules">VFR</abbr> multi-engine aeroplane</label>
                         </div>
                         
 
